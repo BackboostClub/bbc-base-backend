@@ -1,0 +1,14 @@
+info:
+  contact: {}
+paths:
+  /hello:
+    get:
+      description: say hello
+      operationId: say-hello
+      produces:
+      - application/json
+      responses: {}
+      summary: SayHello
+      tags:
+      - auth
+swagger: "2.0"
